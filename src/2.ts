@@ -22,7 +22,7 @@ class Employee {
     protected salary: number
   ) {}
 
-  getEmployeeDetails() {
+  getEmployeeDetails(): string {
     return `Name: ${this.name}, Department: ${this.department}, Salary: ${this.salary}`;
   }
 }
